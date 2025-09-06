@@ -4,7 +4,7 @@ name = "NWSplit58"
 product_name = "NWSplit58"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "nws"
+manufacturer = "Nikolaj W. Steenberg"
 chip = "rp2040"
 
 [layout]
@@ -28,6 +28,8 @@ keymap = [
     ],
 ]
 
+[storage]
+
 [split]
 connection = "serial"
 
@@ -37,8 +39,8 @@ cols = 6
 row_offset = 0
 col_offset = 0
 serial = [{ instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" }]
+
 [split.central.matrix]
-matrix_type = "normal"
 input_pins = ["PIN_20", "PIN_19", "PIN_18", "PIN_17", "PIN_16"]
 output_pins = ["PIN_11", "PIN_10", "PIN_9", "PIN_8", "PIN_7", "PIN_6"]
 
@@ -48,8 +50,7 @@ cols = 7
 row_offset = 0
 col_offset = 6
 serial = [{ instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" }]
+
 [split.peripheral.matrix]
-matrix_type = "normal"
 input_pins = ["PIN_20", "PIN_19", "PIN_18", "PIN_17", "PIN_16"]
 output_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9", "PIN_10", "PIN_11", "PIN_12"]
-output_pins_inverted = true
