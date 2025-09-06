@@ -44,7 +44,7 @@ serial = [{ instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" }]
 input_pins = ["PIN_20", "PIN_19", "PIN_18", "PIN_17", "PIN_16"]
 output_pins = ["PIN_11", "PIN_10", "PIN_9", "PIN_8", "PIN_7", "PIN_6"]
 
-[split.peripheral]
+[[split.peripheral]]
 rows = 5
 cols = 7
 row_offset = 0
