@@ -8,9 +8,6 @@ manufacturer = "nws"
 chip = "rp2040"
 usb_enable = true
 
-[security]
-unlock_keys = [[0, 1], [0, 2]]
-
 [layout]
 rows = 5
 cols = 13
@@ -42,9 +39,7 @@ rows = 5
 cols = 6
 row_offset = 0
 col_offset = 0
-serial = [
-    { instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" },
-]
+serial = [{ instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" }]
 [split.central.matrix]
 matrix_type = "normal"
 input_pins = ["PIN_20", "PIN_19", "PIN_18", "PIN_17", "PIN_16"]
@@ -55,9 +50,7 @@ rows = 5
 cols = 7
 row_offset = 0
 col_offset = 6
-serial = [
-    { instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" },
-]
+serial = [{ instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" }]
 [split.peripheral.matrix]
 matrix_type = "normal"
 input_pins = ["PIN_20", "PIN_19", "PIN_18", "PIN_17", "PIN_16"]
