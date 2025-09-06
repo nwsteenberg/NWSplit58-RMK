@@ -5,6 +5,9 @@ on:
     paths:
       - "**"
 
+env:
+  RUST_BACKTRACE: 1
+
 jobs:
   build:
     uses: haobogu/rmk/.github/workflows/user_build.yml@main
