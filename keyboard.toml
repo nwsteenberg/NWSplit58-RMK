@@ -50,7 +50,7 @@ rows = 5
 cols = 7
 row_offset = 0
 col_offset = 6
-serial = [{ instance = "UART0", tx_pin = "PIN_0", rx_pin = "PIN_1" }]
+serial = [{ instance = "UART0", tx_pin = "PIN_1", rx_pin = "PIN_0" }]
 
 [split.peripheral.matrix]
 input_pins = ["PIN_20", "PIN_19", "PIN_18", "PIN_17", "PIN_16"]
