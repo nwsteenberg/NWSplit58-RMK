@@ -28,8 +28,9 @@ keymap = [
     ]
 ]
 
+# Reset stored config every time you start keyboard
 [storage]
-clear_storage = true
+clear_storage = false 
 
 [split]
 connection = "serial"
