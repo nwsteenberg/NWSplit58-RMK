@@ -7,16 +7,6 @@ product_id = 0x4643
 manufacturer = "Nikolaj W. Steenberg"
 chip = "rp2040"
 
-[behavior.morse]
-enable_flow_tap = false 
-hold_on_other_press = true 
-hold_timeout = "200ms"
-gap_timeout = "200ms"
-
-morses = [
-  { tap = "esc",  hold = "lctl" }
-]
-
 [layout]
 rows = 5
 cols = 13
@@ -24,8 +14,8 @@ layers = 2
 keymap = [
     [
         ["esc", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "="],
-        ["tjab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]"],
-        ["TD(0)", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "nuhs"],
+        ["tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]"],
+        ["lctl", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "nuhs"],
         ["lsft", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/", "rsft", "rwin"],
         ["_", "_", "_", "lopt", "spc", "MO(1)", "ent", "bspc", "ropt", "_", "_", "_", "_"]
     ],
